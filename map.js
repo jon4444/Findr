@@ -54,14 +54,14 @@ var polygon = L.polygon([
   [50.861, -0.090],
   [50.859, -0.094],
   [50.858, -0.093],
-  [50.859, -0.090],
+  [50.859674, -0.090695],
   [50.860, -0.088], 
   [50.861, -0.086]
 ], {
   color: 'red'
 }).addTo(map).bindPopup('this area is off limits');
 
-const circle = L.circle([50.860, -0.085], {
+const circle = L.circle([50.86018, -0.08539], {
   color: 'blue', 
   radius: 50,
   fillOpacity: 0.2
