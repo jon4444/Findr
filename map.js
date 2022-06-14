@@ -50,7 +50,7 @@ marker2.bindPopup(template2);
 // 50.86027469320689, -0.09030836601801734
 
 var polygon = L.polygon([
-  [50.861, -0.086],
+  [50.861932, -0.086592],
   [50.861, -0.090],
   [50.859, -0.094],
   [50.858, -0.093],
@@ -59,9 +59,10 @@ var polygon = L.polygon([
   [50.861, -0.086]
 ], {
   color: 'red'
-}).addTo(map);
+}).addTo(map).bindPopup('this area is off limits');
 
 const circle = L.circle([50.860, -0.085], {
   color: 'blue', 
-  radius: 50
+  radius: 50,
+  fillOpacity: 0.2
 }).addTo(map);
